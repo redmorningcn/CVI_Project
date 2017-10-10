@@ -1,0 +1,8 @@
+[ReadTime]
+Class="Function"
+Prototype="void ReadTime(struct _stcTime_ *sTime);"
+
+[Com_SetParaTask]
+Class="Function"
+Prototype="void Com_SetParaTask();"
+

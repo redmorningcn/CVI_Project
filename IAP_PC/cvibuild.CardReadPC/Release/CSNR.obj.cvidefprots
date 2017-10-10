@@ -1,0 +1,28 @@
+[GetRecSlaveAddr]
+Class="Function"
+Prototype="unsigned char GetRecSlaveAddr();"
+
+[GetRecFramNum]
+Class="Function"
+Prototype="unsigned char GetRecFramNum();"
+
+[CSNR_GetData]
+Class="Function"
+Prototype="unsigned char CSNR_GetData(unsigned char *RecBuf, unsigned char RecLen, unsigned char *DataBuf, unsigned char *InfoLen);"
+
+[GetFramNum]
+Class="Function"
+Prototype="unsigned char GetFramNum();"
+
+[AddFramNum]
+Class="Function"
+Prototype="void AddFramNum();"
+
+[ClearFramNum]
+Class="Function"
+Prototype="void ClearFramNum();"
+
+[DataSend_CSNR]
+Class="Function"
+Prototype="void DataSend_CSNR(unsigned char SourceAddr, unsigned char DistAddr, unsigned char *DataBuf, unsigned int DataLen);"
+

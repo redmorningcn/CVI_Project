@@ -1,0 +1,21 @@
+CrcCheck.obj
+CSNR.obj
+cvicom.obj
+cvicom1.obj
+cvicom2.obj
+cvicom3.obj
+cvicom4.obj
+cvifile.obj
+cviled.obj
+cvitime.obj
+FIFO.obj
+IAP_program_pc.obj
+ndpcom.obj
+cvistart.lib
+cvi.lib
+asynctmr.obj
+kernel32.lib
+user32.lib
+EXE Symbol Module
+Exports Module
+Resource Module

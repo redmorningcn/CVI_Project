@@ -1,0 +1,16 @@
+[GetFramRecEndFlgIAP]
+Class="Function"
+Prototype="unsigned char GetFramRecEndFlgIAP();"
+
+[ClearFramRecEndFlgIAP]
+Class="Function"
+Prototype="void ClearFramRecEndFlgIAP();"
+
+[ReadRs485DataIAP]
+Class="Function"
+Prototype="unsigned int ReadRs485DataIAP(unsigned char *buf);"
+
+[IAP_ProgramTask]
+Class="Function"
+Prototype="void IAP_ProgramTask();"
+

@@ -1,0 +1,110 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "comconfig.h" = "f:\\cvi\\project\\CSNC\\opencom\\uir" ;
+LOCATE on "CrcCheck.c" = "f:\\cvi\\project\\CSNC\\c_comm\\crccheck" ;
+LOCATE on "CrcCheck.h" = "f:\\cvi\\project\\CSNC\\c_comm\\crccheck" ;
+LOCATE on "csnr_package_deal.c" = "f:\\cvi\\project\\CSNC\\c_comm\\csnr_package_deal" ;
+LOCATE on "csnr_package_deal.h" = "f:\\cvi\\project\\CSNC\\c_comm\\csnr_package_deal" ;
+LOCATE on "cvi_ansytimer.c" = "f:\\cvi\\project\\CSNC\\ansytime" ;
+LOCATE on "cvi_ansytimer.h" = "f:\\cvi\\project\\CSNC\\ansytime" ;
+LOCATE on "cvi_bspComm.c" = "f:\\cvi\\project\\CSNC\\csnc_debug" ;
+LOCATE on "cvi_bspComm.h" = "f:\\cvi\\project\\CSNC\\csnc_debug" ;
+LOCATE on "cvi_com1.c" = "f:\\cvi\\project\\CSNC\\opencom\\source" ;
+LOCATE on "cvi_com1.h" = "f:\\cvi\\project\\CSNC\\opencom\\source" ;
+LOCATE on "cvi_com_operate.c" = "f:\\cvi\\project\\CSNC\\opencom\\source" ;
+LOCATE on "cvi_com_operate.h" = "f:\\cvi\\project\\CSNC\\opencom\\source" ;
+LOCATE on "cvi_comm.c" = "f:\\cvi\\project\\CSNC\\cvi_comm" ;
+LOCATE on "cvi_comm.h" = "f:\\cvi\\project\\CSNC\\cvi_comm" ;
+LOCATE on "cvi_config.h" = "f:\\cvi\\project\\CSNC\\config" ;
+LOCATE on "cvi_setpara.c" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\setpara" ;
+LOCATE on "cvi_setpara.h" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\setpara" ;
+LOCATE on "includes.h" = "f:\\cvi\\project\\CSNC\\c_comm" ;
+LOCATE on "main.c" = "f:\\cvi\\project\\CSNC\\csnc_setpara" ;
+LOCATE on "mian.h" = "f:\\cvi\\project\\CSNC\\csnc_setpara" ;
+LOCATE on "setpara.c" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\setpara" ;
+LOCATE on "setpara.h" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\setpara" ;
+Object "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\CrcCheck.obj" : "f:\\cvi\\project\\CSNC\\c_comm\\crccheck\\CrcCheck.c" ;
+FILENUM on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\CrcCheck.obj" = 1 ;
+DEFPROTS on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\CrcCheck.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\CrcCheck.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\CrcCheck.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\CrcCheck.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\CrcCheck.obj" ;
+Object "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\csnr_package_deal.obj" : "f:\\cvi\\project\\CSNC\\c_comm\\csnr_package_deal\\csnr_package_deal.c" ;
+FILENUM on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\csnr_package_deal.obj" = 2 ;
+DEFPROTS on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\csnr_package_deal.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\csnr_package_deal.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\csnr_package_deal.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\csnr_package_deal.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\csnr_package_deal.obj" ;
+Object "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_ansytimer.obj" : "f:\\cvi\\project\\CSNC\\ansytime\\cvi_ansytimer.c" ;
+FILENUM on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_ansytimer.obj" = 3 ;
+DEFPROTS on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_ansytimer.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_ansytimer.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_ansytimer.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_ansytimer.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_ansytimer.obj" ;
+Object "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_bspComm.obj" : "f:\\cvi\\project\\CSNC\\csnc_debug\\cvi_bspComm.c" ;
+FILENUM on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_bspComm.obj" = 4 ;
+DEFPROTS on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_bspComm.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_bspComm.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_bspComm.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_bspComm.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_bspComm.obj" ;
+Object "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com1.obj" : "f:\\cvi\\project\\CSNC\\opencom\\source\\cvi_com1.c" ;
+FILENUM on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com1.obj" = 5 ;
+DEFPROTS on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com1.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com1.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com1.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com1.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com1.obj" ;
+Object "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com_operate.obj" : "f:\\cvi\\project\\CSNC\\opencom\\source\\cvi_com_operate.c" ;
+FILENUM on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com_operate.obj" = 6 ;
+DEFPROTS on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com_operate.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com_operate.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com_operate.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com_operate.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_com_operate.obj" ;
+Object "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_comm.obj" : "f:\\cvi\\project\\CSNC\\cvi_comm\\cvi_comm.c" ;
+FILENUM on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_comm.obj" = 7 ;
+DEFPROTS on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_comm.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_comm.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_comm.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_comm.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_comm.obj" ;
+Object "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_setpara.obj" : "f:\\cvi\\project\\CSNC\\csnc_setpara\\setpara\\cvi_setpara.c" ;
+FILENUM on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_setpara.obj" = 8 ;
+DEFPROTS on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_setpara.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_setpara.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_setpara.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_setpara.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\cvi_setpara.obj" ;
+Object "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\main.obj" : "f:\\cvi\\project\\CSNC\\csnc_setpara\\main.c" ;
+FILENUM on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\main.obj" = 9 ;
+DEFPROTS on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\main.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\main.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\main.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\main.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\main.obj" ;
+Object "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\setpara.obj" : "f:\\cvi\\project\\CSNC\\csnc_setpara\\setpara\\setpara.c" ;
+FILENUM on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\setpara.obj" = 10 ;
+DEFPROTS on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\setpara.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\setpara.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\setpara.obj" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\setpara.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\setpara.obj" ;
+Object "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\resources.res" : "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\resources.in.rc" ;
+Depends "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\resources.res" : "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\manifest.xml" ;
+MainFromObjects "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\csnc_setpara.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\csnc_setpara.exe" : "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\link_options.txt" ;
+Depends "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\csnc_setpara.exe" : "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\resources.res" ;
+Depends all : "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\csnc_setpara.exe" ;

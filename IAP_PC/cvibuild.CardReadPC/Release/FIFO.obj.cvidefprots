@@ -1,0 +1,28 @@
+[InitFIFO]
+Class="Function"
+Prototype="void InitFIFO(struct _stcFIFO *FIFO, unsigned char *Buf, unsigned short Size);"
+
+[ClearFIFO]
+Class="Function"
+Prototype="void ClearFIFO(struct _stcFIFO *FIFO);"
+
+[GetNoReadSizeFIFO]
+Class="Function"
+Prototype="unsigned short GetNoReadSizeFIFO(struct _stcFIFO *FIFO);"
+
+[GetNoWriteSizeFIFO]
+Class="Function"
+Prototype="unsigned short GetNoWriteSizeFIFO(struct _stcFIFO *FIFO);"
+
+[WriteFIFO]
+Class="Function"
+Prototype="unsigned char WriteFIFO(struct _stcFIFO *FIFO, unsigned char *DatBuf, unsigned short DatLen);"
+
+[ReadFIFO]
+Class="Function"
+Prototype="unsigned char ReadFIFO(struct _stcFIFO *FIFO, unsigned char *DatBuf, unsigned short DatLen);"
+
+[OnlyReadFIFO]
+Class="Function"
+Prototype="unsigned char OnlyReadFIFO(struct _stcFIFO *FIFO, unsigned char *DatBuf, unsigned short DatLen);"
+

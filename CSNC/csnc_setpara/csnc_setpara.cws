@@ -1,0 +1,452 @@
+[Workspace Header]
+Version = 1700
+Pathname = "/f/cvi/project/CSNC/csnc_setpara/csnc_setpara.cws"
+CVI Dir = "/c/program files (x86)/national instruments/cvi2017"
+CVI Shared Dir = "/C/Program Files (x86)/National Instruments/Shared/CVI"
+CVI Pub Local Dir = "/C/ProgramData/National Instruments/CVI2017"
+CVI Pub Global Dir = "/C/ProgramData/National Instruments/CVI"
+IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
+IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
+VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
+VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
+Number of Projects = 1
+Active Project = 1
+Project 0001 = "csnc_setpara.prj"
+Drag Bar Left = 260
+Window Top = 55
+Window Left = 817
+Window Bottom = 810
+Window Right = 1691
+Maximized = False
+Maximized Children = True
+Max32 Number Of Errors = 20
+Track Include File Dependencies = True
+Prompt For Missing Includes = True
+Stop On First Error File = False
+Bring Up Err Win At Start = True
+Bring Up Err Win For Errors = False
+Save Changes Before Running = "Always"
+Save Changes Before Compiling = "Always"
+Hide Windows = False
+Break At First Statement = False
+Sort Type = "File Name"
+Number of Opened Files = 26
+Window Confinement Region Enabled = True
+MainColumnWidth = 243
+FileDateColumnWidth = 70
+FileSizeColumnWidth = 70
+
+[Project Header 0001]
+Version = 1700
+Don't Update DistKit = False
+Platform Code = 4
+Build Configuration = "Debug"
+Warn User If Debugging Release = 1
+Batch Build Release = False
+Batch Build Debug = False
+
+[File 0001]
+Path = "/c/program files (x86)/national instruments/cvi2017/toolslib/toolbox/asynctmr.fp"
+File Type = "Function Panel"
+Disk Date = 3573565200
+In Projects = "1,"
+
+[File 0002]
+Path = "/f/cvi/project/CSNC/opencom/source/cvi_com_operate.c"
+File Type = "CSource"
+Disk Date = 3589607146
+In Projects = "1,"
+Window Top = 157
+Window Left = 74
+Window Z-Order = 10
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,24,42,0,59,0,511,855,1,0,"
+
+[File 0003]
+Path = "/f/cvi/project/CSNC/opencom/source/cvi_com1.c"
+File Type = "CSource"
+Disk Date = 3589596093
+In Projects = "1,"
+Window Top = 126
+Window Left = 58
+Window Z-Order = 13
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,24,0,0,0,0,511,855,1,0,"
+
+[File 0004]
+Path = "/f/cvi/project/CSNC/opencom/uir/comconfig.h"
+File Type = "Include"
+Disk Date = 3589595871
+In Projects = "1,"
+Window Top = 281
+Window Left = 138
+Window Z-Order = 25
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,24,0,0,13,28,511,855,1,0,"
+
+[File 0005]
+Path = "/f/cvi/project/CSNC/c_comm/crccheck/CrcCheck.c"
+File Type = "CSource"
+Disk Date = 3530010927
+In Projects = "1,"
+Window Top = 219
+Window Left = 106
+Window Z-Order = 26
+Source Window State = "1,4,36,4,0,0,0,0,0,80,0,0,0,0,0,24,0,0,10,11,511,855,1,0,"
+
+[File 0006]
+Path = "/f/cvi/project/CSNC/c_comm/csnr_package_deal/csnr_package_deal.c"
+File Type = "CSource"
+Disk Date = 3589328579
+In Projects = "1,"
+Window Top = 250
+Window Left = 122
+Window Z-Order = 14
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,24,0,0,0,0,511,855,1,0,"
+
+[File 0007]
+Path = "/f/cvi/project/CSNC/ansytime/cvi_ansytimer.c"
+File Type = "CSource"
+Disk Date = 3589366046
+In Projects = "1,"
+Window Top = 95
+Window Left = 42
+Window Z-Order = 15
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,24,0,0,0,0,511,855,1,0,"
+
+[File 0008]
+Path = "/f/cvi/project/CSNC/cvi_comm/cvi_comm.c"
+File Type = "CSource"
+Disk Date = 3589507600
+In Projects = "1,"
+Window Top = 188
+Window Left = 90
+Window Z-Order = 11
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,24,0,0,0,0,511,855,1,0,"
+
+[File 0009]
+Path = "/f/cvi/project/CSNC/csnc_debug/cvi_bspComm.c"
+File Type = "CSource"
+Disk Date = 3589577441
+In Projects = "1,"
+Window Top = 64
+Window Left = 26
+Window Z-Order = 4
+Source Window State = "1,87,87,87,72,74,74,0,0,80,0,0,0,0,0,25,31,0,108,32,531,855,1,0,"
+
+[File 0010]
+Path = "/f/cvi/project/CSNC/opencom/uir/main.h"
+File Type = "Include"
+Disk Date = 3589074524
+In Projects = ""
+Window Top = 33
+Window Left = 10
+Window Z-Order = 19
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,13,0,0,27,32,291,855,1,0,"
+
+[File 0011]
+Path = "/f/cvi/project/CSNC/opencom/uir/main.uir"
+File Type = "User Interface Resource"
+Disk Date = 3589074524
+In Projects = ""
+Window Top = 95
+Window Left = 42
+Window Height = 291
+Window Width = 855
+Window Z-Order = 24
+
+[File 0012]
+Path = "/f/cvi/project/CSNC/csnc_setpara/mian.h"
+File Type = "Include"
+Disk Date = 3589605093
+In Projects = "1,"
+Window Top = 126
+Window Left = 58
+Window Z-Order = 18
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,13,21,0,13,23,291,855,1,0,"
+
+[File 0013]
+Path = "/f/cvi/project/CSNC/csnc_setpara/main.c"
+File Type = "CSource"
+Disk Date = 3589605101
+In Projects = "1,"
+Window Top = 157
+Window Left = 74
+Window Z-Order = 9
+Source Window State = "1,79,79,79,43,52,43,0,0,80,0,0,0,0,0,13,15,0,23,4,291,855,1,0,"
+
+[File 0014]
+Path = "/f/cvi/project/CSNC/csnc_debug/main.c"
+File Type = "CSource"
+Disk Date = 3589596550
+In Projects = ""
+Window Top = 31
+Window Z-Order = 23
+Source Window State = "1,0,0,0,0,0,0,0,0,55,0,0,0,0,0,18,57,0,0,0,400,600,1,0,"
+
+[File 0015]
+Path = "/f/cvi/project/CSNC/csnc_setpara/setpara/cvi_setpara.uir"
+File Type = "User Interface Resource"
+Disk Date = 3590361706
+In Projects = "1,"
+Window Top = 64
+Window Left = 26
+Window Height = 431
+Window Width = 855
+Window Z-Order = 1
+
+[File 0016]
+Path = "/f/cvi/project/CSNC/opencom/source/cvi_com_operate.h"
+File Type = "Include"
+Disk Date = 3589594948
+In Projects = "1,"
+Window Top = 31
+Window Z-Order = 21
+Source Window State = "1,4,5,4,0,0,0,0,3,55,0,0,0,0,0,18,27,0,4,9,400,600,1,0,"
+
+[File 0017]
+Path = "/f/cvi/project/CSNC/cvi_comm/cvi_comm.h"
+File Type = "Include"
+Disk Date = 3589507587
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 22
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,20,0,0,0,0,431,855,1,0,"
+
+[File 0018]
+Path = "/f/cvi/project/CSNC/config/cvi_config.h"
+File Type = "Include"
+Disk Date = 3589494337
+In Projects = "1,"
+Window Top = 219
+Window Left = 106
+Window Z-Order = 12
+Source Window State = "1,22,22,22,24,29,29,0,3,80,0,0,0,0,0,20,10,0,22,24,431,855,1,0,"
+
+[File 0019]
+Path = "/f/cvi/project/CSNC/csnc_setpara/setpara/cvi_setpara.c"
+File Type = "CSource"
+Disk Date = 3590370609
+In Projects = "1,"
+Window Top = 95
+Window Left = 42
+Window Z-Order = 5
+Source Window State = "1,375,375,375,16,47,16,0,0,61,0,0,0,0,0,20,358,0,374,42,431,665,1,0,"
+
+[File 0020]
+Path = "/f/cvi/project/CSNC/csnc_setpara/setpara/setpara.c"
+File Type = "CSource"
+Disk Date = 3590361052
+In Projects = "1,"
+Window Top = 126
+Window Left = 58
+Window Z-Order = 8
+Source Window State = "1,164,166,166,0,37,37,0,0,80,0,0,0,0,0,20,151,0,168,66,431,855,1,0,"
+
+[File 0021]
+Path = "/f/cvi/project/CSNC/csnc_setpara/setpara/cvi_setpara.h"
+File Type = "Include"
+Disk Date = 3590361706
+In Projects = "1,"
+Window Top = 188
+Window Left = 90
+Window Z-Order = 6
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,20,31,0,15,21,431,855,1,0,"
+
+[File 0022]
+Path = "/f/cvi/project/CSNC/csnc_setpara/setpara/setpara.h"
+File Type = "Include"
+Disk Date = 3590360591
+In Projects = "1,"
+Window Top = 157
+Window Left = 74
+Window Z-Order = 7
+Source Window State = "1,137,137,137,24,33,33,0,0,80,0,0,0,0,0,20,109,0,127,30,431,855,1,0,"
+
+[File 0023]
+Path = "/f/cvi/project/CSNC/c_comm/includes.h"
+File Type = "Include"
+Disk Date = 3584939769
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Window Z-Order = 20
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,20,0,0,0,0,431,855,1,0,"
+
+[File 0024]
+Path = "/f/cvi/project/CSNC/opencom/uir/comconfig.uir"
+File Type = "User Interface Resource"
+Disk Date = 3590361705
+In Projects = "1,"
+Window Top = 33
+Window Left = 10
+Window Height = 291
+Window Width = 665
+Window Z-Order = 2
+
+[File 0025]
+Path = "/f/cvi/project/CSNC/c_comm/csnr_package_deal/csnr_package_deal.h"
+File Type = "Include"
+Disk Date = 3589517184
+In Projects = "1,"
+Window Top = 64
+Window Left = 26
+Window Z-Order = 17
+Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,13,0,0,0,0,291,855,1,0,"
+
+[File 0026]
+Path = "/f/cvi/project/CSNC/opencom/source/cvi_com1.h"
+File Type = "Include"
+Disk Date = 3589400239
+In Projects = "1,"
+Window Top = 95
+Window Left = 42
+Window Z-Order = 16
+Source Window State = "1,91,91,91,8,16,16,0,3,80,0,0,0,0,0,13,83,0,91,8,291,855,1,0,"
+
+[File 0027]
+Path = "/f/cvi/project/CSNC/csnc_setpara/mian.uir"
+File Type = "User Interface Resource"
+Disk Date = 3590359560
+In Projects = "1,"
+Window Top = 157
+Window Left = 74
+Window Height = 291
+Window Width = 855
+Window Z-Order = 3
+
+[File 0028]
+Path = "/f/cvi/project/CSNC/c_comm/crccheck/CrcCheck.h"
+File Type = "Include"
+Disk Date = 3532405953
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0029]
+Path = "/f/cvi/project/CSNC/ansytime/cvi_ansytimer.h"
+File Type = "Include"
+Disk Date = 3589084612
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0030]
+Path = "/f/cvi/project/CSNC/csnc_debug/cvi_bspComm.h"
+File Type = "Include"
+Disk Date = 3589518412
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[Tab Order]
+Tab 0001 = "/f/cvi/project/CSNC/csnc_debug/cvi_bspComm.c"
+Tab 0002 = "/f/cvi/project/CSNC/ansytime/cvi_ansytimer.c"
+Tab 0003 = "/f/cvi/project/CSNC/opencom/source/cvi_com1.c"
+Tab 0004 = "/f/cvi/project/CSNC/opencom/source/cvi_com_operate.c"
+Tab 0005 = "/f/cvi/project/CSNC/cvi_comm/cvi_comm.c"
+Tab 0006 = "/f/cvi/project/CSNC/c_comm/crccheck/CrcCheck.c"
+Tab 0007 = "/f/cvi/project/CSNC/c_comm/csnr_package_deal/csnr_package_deal.c"
+Tab 0008 = "/f/cvi/project/CSNC/opencom/uir/comconfig.h"
+Tab 0009 = "/f/cvi/project/CSNC/opencom/uir/main.h"
+Tab 0010 = "/f/cvi/project/CSNC/opencom/uir/main.uir"
+Tab 0011 = "/f/cvi/project/CSNC/csnc_debug/main.c"
+Tab 0012 = "/f/cvi/project/CSNC/csnc_setpara/setpara/cvi_setpara.uir"
+Tab 0013 = "/f/cvi/project/CSNC/csnc_setpara/setpara/cvi_setpara.c"
+Tab 0014 = "/f/cvi/project/CSNC/csnc_setpara/setpara/setpara.c"
+Tab 0015 = "/f/cvi/project/CSNC/csnc_setpara/setpara/setpara.h"
+Tab 0016 = "/f/cvi/project/CSNC/config/cvi_config.h"
+Tab 0017 = "/f/cvi/project/CSNC/cvi_comm/cvi_comm.h"
+Tab 0018 = "/f/cvi/project/CSNC/opencom/source/cvi_com_operate.h"
+Tab 0019 = "/f/cvi/project/CSNC/c_comm/includes.h"
+Tab 0020 = "/f/cvi/project/CSNC/csnc_setpara/main.c"
+Tab 0021 = "/f/cvi/project/CSNC/opencom/uir/comconfig.uir"
+Tab 0022 = "/f/cvi/project/CSNC/csnc_setpara/mian.uir"
+Tab 0023 = "/f/cvi/project/CSNC/csnc_setpara/mian.h"
+Tab 0024 = "/f/cvi/project/CSNC/c_comm/csnr_package_deal/csnr_package_deal.h"
+Tab 0025 = "/f/cvi/project/CSNC/opencom/source/cvi_com1.h"
+Tab 0026 = "/f/cvi/project/CSNC/csnc_setpara/setpara/cvi_setpara.h"
+
+[Default Build Config 0001 Debug]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Debug64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Default Build Config 0001 Release64]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Batch Build = False
+Profile = "Disabled"
+Debugging Level = "Standard"
+Execution Trace = "Disabled"
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+External Process Path = ""
+
+[Build Dependencies 0001]
+Number of Dependencies = 0
+
+[Build Options 0001]
+Generate Browse Info = True
+Enable Uninitialized Locals Runtime Warning = True
+Execution Trace = "Disabled"
+Profile = "Disabled"
+Debugging Level = "Standard"
+Break On Library Errors = True
+Break On First Chance Exceptions = False
+
+[Execution Target 0001]
+Execution Target Address = "Local desktop computer"
+Execution Target Port = 0
+Execution Target Type = 0
+
+[SCC Options 0001]
+Use global settings = True
+SCC Provider = ""
+SCC Project = ""
+Local Path = ""
+Auxiliary Path = ""
+Perform Same Action For .h File As For .uir File = "Ask"
+Perform Same Action For .cds File As For .prj File = "Ask"
+Username = ""
+Comment = ""
+Use Default Username = False
+Use Default Comment = False
+Suppress CVI Error Messages = False
+Always show confirmation dialog = True
+
+[DLL Debugging Support 0001]
+External Process Path = ""
+
+[Command Line Args 0001]
+Command Line Args = ""
+Working Directory = ""
+Environment Options = ""
+

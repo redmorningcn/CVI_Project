@@ -1,0 +1,8 @@
+[DataPackage_CSNC]
+Class="Function"
+Prototype="void DataPackage_CSNC(struct _stcCsnrProtocolPara_ *sprotocolpara);"
+
+[DataUnpack_CSNC]
+Class="Function"
+Prototype="unsigned char DataUnpack_CSNC(struct _stcCsnrProtocolPara_ *sprotocolpara);"
+

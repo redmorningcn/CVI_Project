@@ -1,0 +1,8 @@
+[TestAnsyTimer]
+Class="Function"
+Prototype="void TestAnsyTimer();"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+

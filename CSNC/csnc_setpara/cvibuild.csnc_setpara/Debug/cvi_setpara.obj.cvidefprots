@@ -1,0 +1,88 @@
+[LoadCsncSetparaPanel]
+Class="Function"
+Prototype="void LoadCsncSetparaPanel();"
+
+[OpenSetParaPanelCallback]
+Class="Function"
+Prototype="int OpenSetParaPanelCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DisplayTimeOnSetPanel]
+Class="Function"
+Prototype="void DisplayTimeOnSetPanel();"
+
+[QuitSetParaPanel]
+Class="Function"
+Prototype="void QuitSetParaPanel();"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetLocoCallBack]
+Class="Function"
+Prototype="int SetLocoCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetTimeCallBack]
+Class="Function"
+Prototype="int SetTimeCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetHigCallBack]
+Class="Function"
+Prototype="int SetHigCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetSelCallBack]
+Class="Function"
+Prototype="int SetSelCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetReadDataCallBack]
+Class="Function"
+Prototype="int SetReadDataCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetReadDataFinalCallBack]
+Class="Function"
+Prototype="int SetReadDataFinalCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ClearAllCallBack]
+Class="Function"
+Prototype="int ClearAllCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[RstSysCallBack]
+Class="Function"
+Prototype="int RstSysCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetCalcParaCallBack]
+Class="Function"
+Prototype="int SetCalcParaCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CardStaticIndicateCallBack]
+Class="Function"
+Prototype="int CardStaticIndicateCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetSetParaPanelVal]
+Class="Function"
+Prototype="void SetSetParaPanelVal();"
+
+[GetSetParaPanelVal]
+Class="Function"
+Prototype="void GetSetParaPanelVal();"
+
+[ReadSetPararomFile]
+Class="Function"
+Prototype="int ReadSetPararomFile();"
+
+[WriteSetParaToFile]
+Class="Function"
+Prototype="void WriteSetParaToFile();"
+
+[SetParaPanelCB]
+Class="Function"
+Prototype="int SetParaPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetStoreRecordRecCallback]
+Class="Function"
+Prototype="int SetStoreRecordRecCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetParaTimerCallback]
+Class="Function"
+Prototype="int SetParaTimerCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

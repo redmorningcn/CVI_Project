@@ -1,0 +1,37 @@
+#include "C:\Program Files (x86)\National Instruments\Shared\MSDTRedistributables\SDKHeaderFiles\8.1\winver.h"
+
+2 ICON "c:\\program files (x86)\\national instruments\\cvi2015\\bin\\default.ico"
+
+STRINGTABLE DISCARDABLE
+BEGIN
+  65535  "CardReadPC"
+END
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0L
+ FILEOS VOS__WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE VFT_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "China\0"
+            VALUE "FileDescription", "CardReadPC (Release x86)\0"
+            VALUE "FileVersion", "1.0\0"
+            VALUE "InternalName", "CardReadPC\0"
+            VALUE "LegalCopyright", "Copyright  China 2017\0"
+            VALUE "OriginalFilename", "CardReadPC.exe\0"
+            VALUE "ProductName", "China CardReadPC\0"
+            VALUE "ProductVersion", "1.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 0x4b0
+    END
+END

@@ -1,0 +1,49 @@
+-nologo
+-out:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\CardReadPC.exe
+-arch:x86
+-timestamp
+-loadextmod
+-res:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\resources.res
+-entry:_CVIWinMainStartupCode@0
+-base:0x400000
+-linked:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\linkersummary.txt
+-dlldeps:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\dlldependencies.txt
+-licensing:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\linkerlicensing.txt
+-browsedeps:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\moduledependencies.txt
+-stackreserve:1048576
+-stackcommit:4096
+-in:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\CrcCheck.obj
+-in:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\CSNR.obj
+-in:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\cvicom.obj
+-in:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\cvicom1.obj
+-in:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\cvicom2.obj
+-in:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\cvicom3.obj
+-in:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\cvicom4.obj
+-in:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\cvifile.obj
+-in:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\cviled.obj
+-in:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\cvitime.obj
+-in:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\FIFO.obj
+-in:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\IAP_program_pc.obj
+-in:f:\cvi\project\IAP_PC\cvibuild.CardReadPC\Release\ndpcom.obj
+-more:c:\program files (x86)\national instruments\cvi2015\bin\msvc\cvistart.lib
+-more:c:\program files (x86)\national instruments\cvi2015\bin\msvc\cvi.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\advapi32.lib
+-more:c:\ProgramData\National Instruments\CVI2015\bin\msvc\analysis.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\toolslib\toolbox\msvc\asynctmr.obj
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\cvi_db.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\cviauto.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\cvidotnet.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\cvinetstreams.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\cvinetv.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\cvintwrk.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\cvitdms.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\gdi32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\gpib.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\kernel32.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\nivxi.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\bin\msvc\omp.lib
+-more:c:\Program Files (x86)\National Instruments\CVI2015\toolslib\toolbox\msvc\toolbox.obj
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\user32.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\uuid.lib
+-more:c:\Program Files (x86)\National Instruments\Shared\CVI\Bin\msvc\visa.lib
+-more:C:\Program Files (x86)\Windows Kits\8.1\Lib\winv6.3\um\x86\winmm.lib

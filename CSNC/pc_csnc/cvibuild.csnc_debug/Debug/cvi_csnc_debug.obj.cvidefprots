@@ -1,0 +1,40 @@
+[LoadCsncDebugPanel]
+Class="Function"
+Prototype="void LoadCsncDebugPanel();"
+
+[PanelCB]
+Class="Function"
+Prototype="int PanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Quit]
+Class="Function"
+Prototype="int Quit(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Debug_SetCsncDataFlg]
+Class="Function"
+Prototype="void Debug_SetCsncDataFlg();"
+
+[SendCsncDataCallback]
+Class="Function"
+Prototype="int SendCsncDataCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ClearTextBoxCallback]
+Class="Function"
+Prototype="int ClearTextBoxCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CVI_COMPanelHandle]
+Class="Function"
+Prototype="void CVI_COMPanelHandle(int panel);"
+
+[SysTickCallback]
+Class="Function"
+Prototype="int SysTickCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[WriteMainPanelData_File]
+Class="Function"
+Prototype="char WriteMainPanelData_File();"
+
+[ReadMainPanelData_File]
+Class="Function"
+Prototype="int ReadMainPanelData_File();"
+

@@ -1,0 +1,16 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[mainPanelCB]
+Class="Function"
+Prototype="int mainPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CVI_MainPanelHandle]
+Class="Function"
+Prototype="void CVI_MainPanelHandle(int panel);"
+
+[MainTimerCallback]
+Class="Function"
+Prototype="int MainTimerCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

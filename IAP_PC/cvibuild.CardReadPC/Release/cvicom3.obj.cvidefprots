@@ -1,0 +1,44 @@
+[GetOpenCom3Flg]
+Class="Function"
+Prototype="unsigned char GetOpenCom3Flg();"
+
+[HoldCom3Tast]
+Class="Function"
+Prototype="void HoldCom3Tast();"
+
+[GetRecCom3EndFlg]
+Class="Function"
+Prototype="unsigned char GetRecCom3EndFlg();"
+
+[ClearRecCom3EndFlg]
+Class="Function"
+Prototype="void ClearRecCom3EndFlg();"
+
+[RecCom3Callback]
+Class="Function"
+Prototype="void RecCom3Callback(int portNo, int eventMask, void *callbackData);"
+
+[RefreshRecCom3Data]
+Class="Function"
+Prototype="int RefreshRecCom3Data(void *functionData);"
+
+[ReadCom3]
+Class="Function"
+Prototype="int ReadCom3(unsigned char *Buf, int Len);"
+
+[OpenProgramCom3]
+Class="Function"
+Prototype="void OpenProgramCom3(int comNum, int boaut);"
+
+[CloseProgramCom3]
+Class="Function"
+Prototype="void CloseProgramCom3();"
+
+[SendCom3]
+Class="Function"
+Prototype="int SendCom3(unsigned char *Buf, int Len);"
+
+[printfcom3]
+Class="Function"
+Prototype="void printfcom3(const char *format, ...);"
+

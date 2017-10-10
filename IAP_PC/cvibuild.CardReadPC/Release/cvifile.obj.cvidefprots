@@ -1,0 +1,20 @@
+[GetHexFileDir]
+Class="Function"
+Prototype="void GetHexFileDir(char *filedir);"
+
+[CloseBinFile]
+Class="Function"
+Prototype="void CloseBinFile();"
+
+[GetFileData]
+Class="Function"
+Prototype="unsigned int GetFileData(unsigned char *buf);"
+
+[StartFile]
+Class="Function"
+Prototype="void StartFile();"
+
+[SetFileDealPer]
+Class="Function"
+Prototype="unsigned char SetFileDealPer();"
+

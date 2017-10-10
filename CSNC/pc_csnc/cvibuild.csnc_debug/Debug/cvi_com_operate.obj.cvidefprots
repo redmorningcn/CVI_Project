@@ -1,0 +1,36 @@
+[cvi_CloseCom]
+Class="Function"
+Prototype="void cvi_CloseCom(struct _stcUartContrl_ *sCom);"
+
+[cvi_InitComContrl]
+Class="Function"
+Prototype="void cvi_InitComContrl(struct _stcUartContrl_ *sCom);"
+
+[cvi_OpenCom]
+Class="Function"
+Prototype="void cvi_OpenCom(struct _stcUartContrl_ *sCom);"
+
+[cvi_ScanComConfig]
+Class="Function"
+Prototype="void cvi_ScanComConfig(struct _stcUartContrl_ *sCom);"
+
+[cvi_GetComRecEndFlg]
+Class="Function"
+Prototype="char cvi_GetComRecEndFlg(struct _stcUartContrl_ *sCom);"
+
+[cvi_ClearComRecEndFlg]
+Class="Function"
+Prototype="void cvi_ClearComRecEndFlg(struct _stcUartContrl_ *sCom);"
+
+[cvi_ReadCom]
+Class="Function"
+Prototype="int cvi_ReadCom(struct _stcUartContrl_ *sCom, char *buf, int len);"
+
+[cvi_StartSendCom]
+Class="Function"
+Prototype="void cvi_StartSendCom(struct _stcUartContrl_ *sCom);"
+
+[cvi_SendCom]
+Class="Function"
+Prototype="int cvi_SendCom(struct _stcUartContrl_ *sCom, char *buf, int len);"
+

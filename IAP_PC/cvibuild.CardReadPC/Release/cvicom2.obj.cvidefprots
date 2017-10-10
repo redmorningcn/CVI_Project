@@ -1,0 +1,44 @@
+[GetOpenCom2Flg]
+Class="Function"
+Prototype="unsigned char GetOpenCom2Flg();"
+
+[HoldCom2Tast]
+Class="Function"
+Prototype="void HoldCom2Tast();"
+
+[GetRecCom2EndFlg]
+Class="Function"
+Prototype="unsigned char GetRecCom2EndFlg();"
+
+[ClearRecCom2EndFlg]
+Class="Function"
+Prototype="void ClearRecCom2EndFlg();"
+
+[RecCom2Callback]
+Class="Function"
+Prototype="void RecCom2Callback(int portNo, int eventMask, void *callbackData);"
+
+[RefreshRecCom2Data]
+Class="Function"
+Prototype="int RefreshRecCom2Data(void *functionData);"
+
+[ReadCom2]
+Class="Function"
+Prototype="int ReadCom2(unsigned char *Buf, int Len);"
+
+[OpenProgramCom2]
+Class="Function"
+Prototype="void OpenProgramCom2(int comNum, int boaut);"
+
+[CloseProgramCom2]
+Class="Function"
+Prototype="void CloseProgramCom2();"
+
+[SendCom2]
+Class="Function"
+Prototype="int SendCom2(unsigned char *Buf, int Len);"
+
+[printfcom2]
+Class="Function"
+Prototype="void printfcom2(const char *format, ...);"
+

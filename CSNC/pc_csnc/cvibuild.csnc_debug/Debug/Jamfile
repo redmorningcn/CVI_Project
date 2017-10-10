@@ -1,0 +1,59 @@
+CCFLAGS = -g ;
+HDRS = 	"f:\\cvi\\project\\CSNC\\opencom\\uir"
+	"f:\\cvi\\project\\CSNC\\config"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+LOCATE on "CrcCheck.c" = "f:\\cvi\\project\\CSNC\\c_comm\\crccheck" ;
+LOCATE on "CrcCheck.h" = "f:\\cvi\\project\\CSNC\\c_comm\\crccheck" ;
+LOCATE on "csnr_package_deal.c" = "f:\\cvi\\project\\CSNC\\c_comm\\csnr_package_deal" ;
+LOCATE on "csnr_package_deal.h" = "f:\\cvi\\project\\CSNC\\c_comm\\csnr_package_deal" ;
+LOCATE on "cvi_ansytimer.c" = "f:\\cvi\\project\\CSNC\\ansytime" ;
+LOCATE on "cvi_ansytimer.h" = "f:\\cvi\\project\\CSNC\\ansytime" ;
+LOCATE on "cvi_bspComm.c" = "f:\\cvi\\project\\CSNC\\pc_csnc" ;
+LOCATE on "cvi_bspComm.h" = "f:\\cvi\\project\\CSNC\\pc_csnc" ;
+LOCATE on "cvi_com1.c" = "f:\\cvi\\project\\CSNC\\opencom\\source" ;
+LOCATE on "cvi_com1.h" = "f:\\cvi\\project\\CSNC\\opencom\\source" ;
+LOCATE on "cvi_com_operate.c" = "f:\\cvi\\project\\CSNC\\opencom\\source" ;
+LOCATE on "cvi_com_operate.h" = "f:\\cvi\\project\\CSNC\\opencom\\source" ;
+LOCATE on "cvi_comm.c" = "f:\\cvi\\project\\CSNC\\cvi_comm" ;
+LOCATE on "cvi_comm.h" = "f:\\cvi\\project\\CSNC\\cvi_comm" ;
+LOCATE on "cvi_config.h" = "f:\\cvi\\project\\CSNC\\config" ;
+LOCATE on "cvi_csnc_debug.c" = "f:\\cvi\\project\\CSNC\\pc_csnc" ;
+LOCATE on "cvi_csnc_debug.h" = "f:\\cvi\\project\\CSNC\\pc_csnc" ;
+LOCATE on "includes.h" = "f:\\cvi\\project\\CSNC\\c_comm" ;
+LOCATE on "main.c" = "f:\\cvi\\project\\CSNC\\csnc_debug" ;
+LOCATE on "mian.h" = "f:\\cvi\\project\\CSNC\\csnc_debug" ;
+Object "f:\\cvi\\project\\CSNC\\pc_csnc\\cvibuild.csnc_debug\\Debug\\main.obj" : "f:\\cvi\\project\\CSNC\\csnc_debug\\main.c" ;
+FILENUM on "f:\\cvi\\project\\CSNC\\pc_csnc\\cvibuild.csnc_debug\\Debug\\main.obj" = 1 ;
+DEFPROTS on "f:\\cvi\\project\\CSNC\\pc_csnc\\cvibuild.csnc_debug\\Debug\\main.obj" = "f:\\cvi\\project\\CSNC\\pc_csnc\\cvibuild.csnc_debug\\Debug\\main.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\CSNC\\pc_csnc\\cvibuild.csnc_debug\\Debug\\main.obj" = "f:\\cvi\\project\\CSNC\\pc_csnc\\cvibuild.csnc_debug\\Debug\\main.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\CSNC\\pc_csnc\\cvibuild.csnc_debug\\Debug\\main.obj" ;
+Always $(PrjObjects) ;
+Depends all : $(PrjObjects) ;

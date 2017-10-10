@@ -1,0 +1,1 @@
+-force-include-file "cvi_ansytimer.c";"f:\cvi\project\CSNC\ansytime\cvi_ansytimer.c" -force-include-file "cvi_ansytimer.h";"f:\cvi\project\CSNC\ansytime\cvi_ansytimer.h" -force-include-file "main.c";"f:\cvi\project\CSNC\ansytime\main.c" 

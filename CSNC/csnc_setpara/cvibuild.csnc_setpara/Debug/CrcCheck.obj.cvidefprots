@@ -1,0 +1,24 @@
+[GetCrc16Check]
+Class="Function"
+Prototype="unsigned short GetCrc16Check(unsigned char *Buf, unsigned short Len);"
+
+[GetModBusCrc16]
+Class="Function"
+Prototype="unsigned short GetModBusCrc16(unsigned char *puchMsg, unsigned short usDataLen);"
+
+[GetModBusCrc16Up]
+Class="Function"
+Prototype="unsigned short GetModBusCrc16Up(unsigned char *puchMsg, unsigned short usDataLen);"
+
+[GetCheckSum]
+Class="Function"
+Prototype="unsigned char GetCheckSum(unsigned char *Buf, unsigned int Len);"
+
+[GetCheckSumNR]
+Class="Function"
+Prototype="unsigned char GetCheckSumNR(unsigned char *Buf, unsigned int Len);"
+
+[GetCRCR16_8408_FFFF_FFFF_Table]
+Class="Function"
+Prototype="unsigned short GetCRCR16_8408_FFFF_FFFF_Table(unsigned char *crcBuff, unsigned char crcLen);"
+

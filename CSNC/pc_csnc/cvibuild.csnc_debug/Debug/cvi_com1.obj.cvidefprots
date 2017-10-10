@@ -1,0 +1,44 @@
+[Com1RecvAndSend]
+Class="Function"
+Prototype="void Com1RecvAndSend(int portNo, int eventMask, void *callbackData);"
+
+[ReadCom1ConfigFromFile]
+Class="Function"
+Prototype="int ReadCom1ConfigFromFile(struct _stcUartConfig_ *sUartConfig);"
+
+[WriteCom1ConfigToFile]
+Class="Function"
+Prototype="void WriteCom1ConfigToFile(struct _stcUartConfig_ *sUartConfig);"
+
+[Com1Config]
+Class="Function"
+Prototype="void Com1Config(struct _stcUartConfig_ *sComConfig);"
+
+[QuitCom1Panel]
+Class="Function"
+Prototype="void QuitCom1Panel(int panel);"
+
+[CloseCom1]
+Class="Function"
+Prototype="void CloseCom1();"
+
+[Com1ConfigOkCallback]
+Class="Function"
+Prototype="int Com1ConfigOkCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Com1PanelCB]
+Class="Function"
+Prototype="int Com1PanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetCviCtrlCom1Config]
+Class="Function"
+Prototype="void SetCviCtrlCom1Config(struct _stcUartConfig_ *sUartConfig);"
+
+[OpenCom1Callback]
+Class="Function"
+Prototype="int OpenCom1Callback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Com1TimerCallback]
+Class="Function"
+Prototype="int Com1TimerCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

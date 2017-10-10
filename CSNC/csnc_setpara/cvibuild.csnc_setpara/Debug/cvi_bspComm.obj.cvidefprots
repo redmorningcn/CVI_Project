@@ -1,0 +1,8 @@
+[cvi_InitBspComm]
+Class="Function"
+Prototype="int cvi_InitBspComm(struct _stcThreadCommCtrl_ *T_Ctrl);"
+
+[cvi_CloseBspComm]
+Class="Function"
+Prototype="int cvi_CloseBspComm(struct _stcThreadCommCtrl_ *T_Ctrl);"
+

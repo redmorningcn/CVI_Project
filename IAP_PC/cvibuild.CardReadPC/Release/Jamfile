@@ -1,0 +1,120 @@
+HDRS = 	"f:\\cvi\\project\\IAP_PC\\memdrive"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2015\\toolslib"
+	"f:\\cvi\\project\\IAP_PC"
+	"f:\\cvi\\project\\IAP_PC\\myreaderdrive"
+	"f:\\cvi\\project\\IAP_PC\\mydipdatadef"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2015\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2015\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2015\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2015\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "CrcCheck.c" = "f:\\cvi\\project\\IAP_PC\\crccheck" ;
+LOCATE on "CrcCheck.h" = "f:\\cvi\\project\\IAP_PC\\crccheck" ;
+LOCATE on "CSNR.c" = "f:\\cvi\\project\\IAP_PC\\mysimdrive" ;
+LOCATE on "cvicom.c" = "f:\\cvi\\project\\IAP_PC\\mycvidrive" ;
+LOCATE on "cvicom1.c" = "f:\\cvi\\project\\IAP_PC\\mycvidrive" ;
+LOCATE on "cvicom2.c" = "f:\\cvi\\project\\IAP_PC\\mycvidrive" ;
+LOCATE on "cvicom3.c" = "f:\\cvi\\project\\IAP_PC\\mycvidrive" ;
+LOCATE on "cvicom4.c" = "f:\\cvi\\project\\IAP_PC\\mycvidrive" ;
+LOCATE on "cvifile.c" = "f:\\cvi\\project\\IAP_PC\\mycvidrive" ;
+LOCATE on "cviled.c" = "f:\\cvi\\project\\IAP_PC\\cviled" ;
+LOCATE on "cvitime.c" = "f:\\cvi\\project\\IAP_PC\\mycvidrive" ;
+LOCATE on "FIFO.c" = "f:\\cvi\\project\\IAP_PC\\memdrive" ;
+LOCATE on "IAP_program_pc.C" = "f:\\cvi\\project\\IAP_PC\\IAP_PC" ;
+LOCATE on "includes.h" = "f:\\cvi\\project\\IAP_PC" ;
+LOCATE on "ndpcom.c" = "f:\\cvi\\project\\IAP_PC" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CrcCheck.obj" : "f:\\cvi\\project\\IAP_PC\\crccheck\\CrcCheck.c" ;
+FILENUM on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CrcCheck.obj" = 1 ;
+DEFPROTS on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CrcCheck.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CrcCheck.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CrcCheck.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CrcCheck.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CrcCheck.obj" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CSNR.obj" : "f:\\cvi\\project\\IAP_PC\\mysimdrive\\CSNR.c" ;
+FILENUM on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CSNR.obj" = 2 ;
+DEFPROTS on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CSNR.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CSNR.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CSNR.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CSNR.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CSNR.obj" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom.obj" : "f:\\cvi\\project\\IAP_PC\\mycvidrive\\cvicom.c" ;
+FILENUM on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom.obj" = 3 ;
+DEFPROTS on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom.obj" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom1.obj" : "f:\\cvi\\project\\IAP_PC\\mycvidrive\\cvicom1.c" ;
+FILENUM on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom1.obj" = 4 ;
+DEFPROTS on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom1.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom1.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom1.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom1.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom1.obj" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom2.obj" : "f:\\cvi\\project\\IAP_PC\\mycvidrive\\cvicom2.c" ;
+FILENUM on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom2.obj" = 5 ;
+DEFPROTS on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom2.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom2.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom2.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom2.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom2.obj" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom3.obj" : "f:\\cvi\\project\\IAP_PC\\mycvidrive\\cvicom3.c" ;
+FILENUM on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom3.obj" = 6 ;
+DEFPROTS on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom3.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom3.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom3.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom3.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom3.obj" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom4.obj" : "f:\\cvi\\project\\IAP_PC\\mycvidrive\\cvicom4.c" ;
+FILENUM on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom4.obj" = 7 ;
+DEFPROTS on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom4.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom4.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom4.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom4.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvicom4.obj" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvifile.obj" : "f:\\cvi\\project\\IAP_PC\\mycvidrive\\cvifile.c" ;
+FILENUM on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvifile.obj" = 8 ;
+DEFPROTS on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvifile.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvifile.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvifile.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvifile.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvifile.obj" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cviled.obj" : "f:\\cvi\\project\\IAP_PC\\cviled\\cviled.c" ;
+FILENUM on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cviled.obj" = 9 ;
+DEFPROTS on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cviled.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cviled.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cviled.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cviled.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cviled.obj" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvitime.obj" : "f:\\cvi\\project\\IAP_PC\\mycvidrive\\cvitime.c" ;
+FILENUM on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvitime.obj" = 10 ;
+DEFPROTS on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvitime.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvitime.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvitime.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvitime.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\cvitime.obj" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\FIFO.obj" : "f:\\cvi\\project\\IAP_PC\\memdrive\\FIFO.c" ;
+FILENUM on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\FIFO.obj" = 11 ;
+DEFPROTS on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\FIFO.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\FIFO.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\FIFO.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\FIFO.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\FIFO.obj" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\IAP_program_pc.obj" : "f:\\cvi\\project\\IAP_PC\\IAP_PC\\IAP_program_pc.C" ;
+FILENUM on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\IAP_program_pc.obj" = 12 ;
+DEFPROTS on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\IAP_program_pc.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\IAP_program_pc.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\IAP_program_pc.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\IAP_program_pc.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\IAP_program_pc.obj" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\ndpcom.obj" : "f:\\cvi\\project\\IAP_PC\\ndpcom.c" ;
+FILENUM on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\ndpcom.obj" = 13 ;
+DEFPROTS on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\ndpcom.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\ndpcom.obj.cvidefprots" ;
+OUTFILE on "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\ndpcom.obj" = "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\ndpcom.obj.out" ;
+PrjObjects += "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\ndpcom.obj" ;
+Object "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\resources.res" : "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\resources.in.rc" ;
+MainFromObjects "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CardReadPC.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CardReadPC.exe" : "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\link_options.txt" ;
+Depends "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CardReadPC.exe" : "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\resources.res" ;
+Depends all : "f:\\cvi\\project\\IAP_PC\\cvibuild.CardReadPC\\Release\\CardReadPC.exe" ;

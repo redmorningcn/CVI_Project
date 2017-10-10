@@ -1,0 +1,48 @@
+[GetProgramFlg]
+Class="Function"
+Prototype="unsigned char GetProgramFlg();"
+
+[ClearProgramFlg]
+Class="Function"
+Prototype="void ClearProgramFlg();"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[printftexbox]
+Class="Function"
+Prototype="void printftexbox(unsigned char *g_textboxbuf);"
+
+[SysTickCallback]
+Class="Function"
+Prototype="int SysTickCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[GetDestAddr]
+Class="Function"
+Prototype="unsigned char GetDestAddr();"
+
+[QuitCallback]
+Class="Function"
+Prototype="int QuitCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OpenComCallback]
+Class="Function"
+Prototype="int OpenComCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ClearTextBoxCallback]
+Class="Function"
+Prototype="int ClearTextBoxCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[OpenBinFileCallback]
+Class="Function"
+Prototype="int OpenBinFileCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SetProgramFlgCallback]
+Class="Function"
+Prototype="int SetProgramFlgCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[printftext]
+Class="Function"
+Prototype="void printftext(const char *format, ...);"
+

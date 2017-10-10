@@ -1,0 +1,32 @@
+[UnLightLed]
+Class="Function"
+Prototype="void UnLightLed(unsigned char num);"
+
+[LightLed]
+Class="Function"
+Prototype="void LightLed(unsigned char num);"
+
+[OnLed]
+Class="Function"
+Prototype="void OnLed(unsigned char num, unsigned int times, unsigned short LightTime, unsigned short unLightTime);"
+
+[OnAllLed]
+Class="Function"
+Prototype="void OnAllLed();"
+
+[OffLed]
+Class="Function"
+Prototype="void OffLed(unsigned char num);"
+
+[OffAllLed]
+Class="Function"
+Prototype="void OffAllLed();"
+
+[HoldLed]
+Class="Function"
+Prototype="void HoldLed();"
+
+[InitLed]
+Class="Function"
+Prototype="void InitLed();"
+

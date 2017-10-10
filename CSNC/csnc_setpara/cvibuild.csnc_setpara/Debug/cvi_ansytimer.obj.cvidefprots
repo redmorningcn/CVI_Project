@@ -1,0 +1,24 @@
+[AnsyTimerCallback]
+Class="Function"
+Prototype="int AnsyTimerCallback(int reserved, int theTimerId, int event, void *callbackData, int eventData1, int eventData2);"
+
+[AddTimeOutVarToAnsyTimer]
+Class="Function"
+Prototype="int AddTimeOutVarToAnsyTimer(struct _stcAnsyTimerMgr_ sAnsyTime);"
+
+[DelTimeOutVarFromAnsyTimer]
+Class="Function"
+Prototype="int DelTimeOutVarFromAnsyTimer(struct _stcAnsyTimerMgr_ sAnsyTime);"
+
+[cvi_InitAnsyTimer]
+Class="Function"
+Prototype="int cvi_InitAnsyTimer();"
+
+[DelAnsySysTimer]
+Class="Function"
+Prototype="int DelAnsySysTimer();"
+
+[GetAnsySysTime]
+Class="Function"
+Prototype="int GetAnsySysTime();"
+

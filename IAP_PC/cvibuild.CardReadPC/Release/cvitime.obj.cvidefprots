@@ -1,0 +1,20 @@
+[AsyncTimerCallback]
+Class="Function"
+Prototype="int AsyncTimerCallback(int reserved, int timerId, int event, void *callbackData, int eventData1, int eventData2);"
+
+[GetSysTime]
+Class="Function"
+Prototype="unsigned int GetSysTime();"
+
+[DelayX10ms]
+Class="Function"
+Prototype="void DelayX10ms(unsigned int Time);"
+
+[AsyncTimerStart]
+Class="Function"
+Prototype="void AsyncTimerStart();"
+
+[SysTickTask]
+Class="Function"
+Prototype="void SysTickTask();"
+
