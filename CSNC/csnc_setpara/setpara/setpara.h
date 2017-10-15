@@ -117,15 +117,20 @@ typedef		struct	_stcTime_
 //8 bytes
 typedef struct _stcRunPara_					
 {
-	unsigned char		StoreTime;					// 1 		数据记录存储周期
-	unsigned char		RecClear;					// 1		数据记录清零，清StrRecNumMgr内容
-	unsigned char		SysReset;					// 1    	系统参数重置，清StrRecNumMgr + StrOilPara 	中的内容。
-	unsigned char		StartFlg;					// 1    	首次运行
+	uint8		StoreTime;					// 1 		数据记录存储周期
+	uint8		RecClear;					// 1		数据记录清零，清StrRecNumMgr内容
+	uint8		SysReset;					// 1    	系统参数重置，清StrRecNumMgr + StrOilPara 	中的内容。
+	uint8		StartFlg;					// 1    	首次运行
 	
-    unsigned char		SysSta;						// 1   	    系统运行状态
-	unsigned char		StoreType;                  // 1   	    系统运行状态
-	unsigned char		StoreTypeBak;               // 1   	    系统运行状态
-	unsigned char		Setbitflg;					// 1        设置有效位指示
+    uint8		SysSta;						// 1   	    系统运行状态
+	uint8		StoreType;                  // 1   	    系统运行状态
+	uint8		StoreTypeBak;               // 1   	    系统运行状态
+	uint8		SetBitFlg;					// 1        设置有效位指示
+    
+//    uint16      LowOilLimit;                // 2
+//    uint16      HightOilLimit;              // 2        
+    
+//    uint8       tmp[20];                    // 20
 }stcRunPara;
 
 /********************************************************************************************/

@@ -17,7 +17,6 @@
 
 typedef struct _stcSysCtrl {
 	stcThreadCommCtrl	PC;
-	
 } stcSysCtrl;
 
 extern	stcSysCtrl		sCtrl;

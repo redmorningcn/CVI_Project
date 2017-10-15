@@ -208,7 +208,7 @@ void Com_SetParaTask(void)
 		memcpy(sCtrl.PC.wr,buf,datalen);			//数据拷贝到控制字符		
 		sCtrl.PC.ConnCtrl.sendlen 		= datalen;	//发送数据区长度
 
-		sCtrl.PC.ConnCtrl.sourceaddr	= 0xc2;		//源地址
+		sCtrl.PC.ConnCtrl.sourceaddr	= 0xC2;		//源地址
 		sCtrl.PC.ConnCtrl.DestAddr		= 0x80; 	//目的地址
 		sCtrl.PC.ConnCtrl.SendFramNum 	= 0x00; 	//序号
 		sCtrl.PC.ConnCtrl.FrameCode		= 0x00;		//帧命令字	

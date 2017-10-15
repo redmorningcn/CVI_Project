@@ -100,12 +100,13 @@ void	QuitSetParaPanel(void)
 	WriteSetParaToFile();			//退出，保存参数
 	
 	HidePanel (gsetpara_panelHandle);
+	
+	gsetpara_panelHandle = 0;	
 }
 
 int CVICALLBACK QuitCallback (int panel, int control, int event,
 		void *callbackData, int eventData1, int eventData2)
 {
-	int	comNum;
 	switch (event)
 	{
 		case EVENT_COMMIT:
@@ -286,7 +287,6 @@ int	ReadSetPararomFile(void)
 	char 	fullPath[MAX_PATHNAME_LEN];					//文件全路径
 	ssize_t size;										//文件大小
 	int		filecom1hand;								//文件句柄
-	int		readsize;
 	int		flg = 0;
 	
 	fileName = SETPRAR_FILE_NAME;
@@ -377,7 +377,7 @@ int CVICALLBACK SetStoreRecordRecCallback (int panel, int control, int event,
 				gsRunPara.StoreType 	= 0x02;
 			
 			gsRunPara.StoreTypeBak	= gsRunPara.StoreType;
-			gsRunPara.Setbitflg		= 0x01 << ((char *)&gsRunPara.StoreType - (char *)&gsRunPara);		//设置有效位				  
+			gsRunPara.SetBitFlg		= 0x01 << ((char *)&gsRunPara.StoreType - (char *)&gsRunPara);		//设置有效位				  
 			break;
 	}
 	return 0;
@@ -389,11 +389,13 @@ int CVICALLBACK SetParaTimerCallback (int panel, int control, int event,
 	switch (event)
 	{
 		case EVENT_TIMER_TICK:
+		
+			if(gsetpara_panelHandle)			//面板有效，则进行定时器操作
+			{
+				DisplayTimeOnSetPanel();	  	//面板显示
 			
-			DisplayTimeOnSetPanel();	  	//面板显示
-			
-			Com_SetParaTask();				//串口参数设置
-			
+				Com_SetParaTask();				//串口参数设置
+			}
 			break;
 	}
 	return 0;
