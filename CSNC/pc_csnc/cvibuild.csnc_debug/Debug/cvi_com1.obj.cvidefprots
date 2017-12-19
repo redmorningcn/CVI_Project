@@ -38,7 +38,3 @@ Prototype="void SetCviCtrlCom1Config(struct _stcUartConfig_ *sUartConfig);"
 Class="Function"
 Prototype="int OpenCom1Callback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
 
-[Com1TimerCallback]
-Class="Function"
-Prototype="int Com1TimerCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
-

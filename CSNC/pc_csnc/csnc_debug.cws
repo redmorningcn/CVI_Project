@@ -12,12 +12,12 @@ VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
 Number of Projects = 1
 Active Project = 1
 Project 0001 = "csnc_debug.prj"
-Drag Bar Left = 260
-Window Top = 55
-Window Left = 817
-Window Bottom = 810
-Window Right = 1691
-Maximized = True
+Drag Bar Left = 259
+Window Top = 59
+Window Left = 258
+Window Bottom = 788
+Window Right = 1201
+Maximized = False
 Maximized Children = True
 Max32 Number Of Errors = 20
 Track Include File Dependencies = True
@@ -32,7 +32,7 @@ Break At First Statement = False
 Sort Type = "File Name"
 Number of Opened Files = 27
 Window Confinement Region Enabled = True
-MainColumnWidth = 243
+MainColumnWidth = 242
 FileDateColumnWidth = 70
 FileSizeColumnWidth = 70
 
@@ -58,8 +58,8 @@ Disk Date = 3589582210
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 5
-Source Window State = "1,82,82,82,14,35,14,0,3,60,0,0,0,0,0,21,69,0,82,35,451,655,1,0,"
+Window Z-Order = 1
+Source Window State = "1,82,82,82,14,35,14,0,3,155,0,0,0,0,0,30,72,18,82,35,451,655,1,0,"
 
 [File 0003]
 Path = "/f/cvi/project/CSNC/pc_csnc/csnc_debug.uir"
@@ -70,38 +70,38 @@ Window Top = 33
 Window Left = 10
 Window Height = 291
 Window Width = 655
-Window Z-Order = 13
+Window Z-Order = 15
 
 [File 0004]
 Path = "/f/cvi/project/CSNC/opencom/uir/comconfig.uir"
 File Type = "User Interface Resource"
-Disk Date = 3589424182
+Disk Date = 3590361705
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
 Window Height = 291
 Window Width = 655
-Window Z-Order = 14
+Window Z-Order = 16
 
 [File 0005]
 Path = "/f/cvi/project/CSNC/opencom/source/cvi_com_operate.c"
 File Type = "CSource"
-Disk Date = 3589490577
+Disk Date = 3595316913
 In Projects = "1,"
 Window Top = 95
 Window Left = 42
-Window Z-Order = 2
+Window Z-Order = 7
 Source Window State = "1,147,147,147,4,15,15,0,0,80,0,0,0,0,0,20,124,0,134,0,431,855,1,0,"
 
 [File 0006]
 Path = "/f/cvi/project/CSNC/opencom/source/cvi_com1.c"
 File Type = "CSource"
-Disk Date = 3589490039
+Disk Date = 3596489454
 In Projects = "1,"
 Window Top = 64
 Window Left = 26
 Window Z-Order = 3
-Source Window State = "1,259,259,259,13,24,24,0,3,80,0,0,0,0,0,20,247,0,259,13,431,855,1,0,"
+Source Window State = "1,10,20,10,1,71,1,0,0,80,0,0,0,0,0,20,0,0,8,17,431,855,1,0,"
 
 [File 0007]
 Path = "/f/cvi/project/CSNC/c_comm/crccheck/CrcCheck.c"
@@ -120,7 +120,7 @@ Disk Date = 3589517184
 In Projects = "1,"
 Window Top = 64
 Window Left = 26
-Window Z-Order = 20
+Window Z-Order = 21
 Source Window State = "1,27,27,27,1,20,20,0,3,80,0,0,0,0,0,25,8,0,27,1,531,855,1,0,"
 
 [File 0009]
@@ -130,17 +130,17 @@ Disk Date = 3589400239
 In Projects = "1,"
 Window Top = 126
 Window Left = 58
-Window Z-Order = 19
+Window Z-Order = 20
 Source Window State = "1,64,64,64,24,36,36,0,0,80,0,0,0,0,0,20,57,0,64,15,431,855,1,0,"
 
 [File 0010]
 Path = "/f/cvi/project/CSNC/opencom/source/cvi_com_operate.h"
 File Type = "Include"
-Disk Date = 3589489984
+Disk Date = 3589594948
 In Projects = "1,"
 Window Top = 188
 Window Left = 90
-Window Z-Order = 18
+Window Z-Order = 19
 Source Window State = "1,78,79,79,10,10,10,0,0,80,0,0,0,0,0,25,82,0,81,33,531,855,1,0,"
 
 [File 0011]
@@ -150,7 +150,7 @@ Disk Date = 3589507624
 In Projects = "1,"
 Window Top = 126
 Window Left = 58
-Window Z-Order = 16
+Window Z-Order = 17
 Source Window State = "1,24,24,24,10,21,21,0,3,80,0,75,0,75,0,25,19,0,24,10,531,855,1,0,"
 
 [File 0012]
@@ -160,7 +160,7 @@ Disk Date = 3589582062
 In Projects = ""
 Window Top = 219
 Window Left = 106
-Window Z-Order = 10
+Window Z-Order = 12
 Source Window State = "1,41,42,41,0,0,0,0,3,80,0,0,0,0,0,20,32,0,41,20,431,855,1,0,"
 
 [File 0013]
@@ -170,8 +170,8 @@ Disk Date = 3589513818
 In Projects = "1,"
 Window Top = 157
 Window Left = 74
-Window Z-Order = 6
-Source Window State = "1,115,115,115,4,19,19,0,0,80,0,0,0,0,0,25,15,0,54,11,531,855,1,0,"
+Window Z-Order = 2
+Source Window State = "1,73,73,73,16,21,21,0,3,80,0,0,0,0,0,25,58,0,73,16,531,855,1,0,"
 
 [File 0014]
 Path = "/f/cvi/project/CSNC/pc_csnc/cvi_bspComm.h"
@@ -180,8 +180,8 @@ Disk Date = 3589516754
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 15
-Source Window State = "1,29,29,29,36,39,39,0,0,80,0,0,0,0,0,20,28,0,34,108,431,855,1,0,"
+Window Z-Order = 4
+Source Window State = "1,63,75,75,0,54,54,0,3,80,0,0,0,0,0,20,72,0,63,0,431,855,1,0,"
 
 [File 0015]
 Path = "/f/cvi/project/CSNC/c_comm/includes.h"
@@ -190,18 +190,18 @@ Disk Date = 3584939769
 In Projects = "1,"
 Window Top = 250
 Window Left = 122
-Window Z-Order = 12
+Window Z-Order = 14
 Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,25,0,0,3,14,531,855,1,0,"
 
 [File 0016]
 Path = "/f/cvi/project/CSNC/config/cvi_config.h"
 File Type = "Include"
-Disk Date = 3589494337
+Disk Date = 3590464945
 In Projects = "1,"
 Window Top = 95
 Window Left = 42
-Window Z-Order = 23
-Source Window State = "1,18,18,18,24,26,26,0,0,80,0,0,0,0,0,25,0,0,18,18,531,855,1,0,"
+Window Z-Order = 5
+Source Window State = "1,18,18,18,4,21,21,0,3,80,0,0,0,0,0,25,0,0,18,4,531,855,1,0,"
 
 [File 0017]
 Path = "/c/Program Files (x86)/National Instruments/CVI2017/include/rs232.h"
@@ -240,7 +240,7 @@ Disk Date = 3589328579
 In Projects = "1,"
 Window Top = 188
 Window Left = 90
-Window Z-Order = 8
+Window Z-Order = 10
 Source Window State = "1,66,66,66,16,31,31,0,3,80,0,0,0,0,0,20,0,0,66,16,431,855,1,0,"
 
 [File 0021]
@@ -250,7 +250,7 @@ Disk Date = 3573565200
 In Projects = ""
 Window Top = 126
 Window Left = 58
-Window Z-Order = 22
+Window Z-Order = 23
 Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,20,36,0,46,35,431,855,1,0,"
 
 [File 0022]
@@ -260,7 +260,7 @@ Disk Date = 3573565200
 In Projects = ""
 Window Top = 157
 Window Left = 74
-Window Z-Order = 21
+Window Z-Order = 22
 Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,20,79,0,89,33,431,855,1,0,"
 
 [File 0023]
@@ -270,7 +270,7 @@ Disk Date = 3589366046
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 7
+Window Z-Order = 9
 Source Window State = "1,0,0,0,0,0,0,0,0,80,0,0,0,0,0,20,175,0,60,0,431,855,1,0,"
 
 [File 0024]
@@ -280,7 +280,7 @@ Disk Date = 3589507600
 In Projects = "1,"
 Window Top = 64
 Window Left = 26
-Window Z-Order = 4
+Window Z-Order = 8
 Source Window State = "1,38,38,38,5,15,15,0,3,80,0,0,0,0,0,20,4,0,38,5,431,855,1,0,"
 
 [File 0025]
@@ -290,60 +290,60 @@ Disk Date = 3589507587
 In Projects = "1,"
 Window Top = 95
 Window Left = 42
-Window Z-Order = 17
+Window Z-Order = 18
 Source Window State = "1,36,36,36,88,103,88,0,0,80,0,0,0,0,0,20,21,0,36,88,431,855,1,0,"
 
 [File 0026]
-Path = "/f/cvi/project/CSNC/c_comm/crccheck/CrcCheck.h"
-File Type = "Include"
-Disk Date = 3532405953
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0027]
-Path = "/f/cvi/project/CSNC/ansytime/cvi_ansytimer.h"
-File Type = "Include"
-Disk Date = 3589084612
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0028]
 Path = "/f/cvi/project/CSNC/csnc_debug/mian.uir"
 File Type = "User Interface Resource"
-Disk Date = 3589582864
+Disk Date = 3589596599
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
 Window Height = 531
 Window Width = 855
-Window Z-Order = 9
+Window Z-Order = 11
 
-[File 0029]
-Path = "/f/cvi/project/CSNC/csnc_debug/mian.h"
-File Type = "Include"
-Disk Date = 3589581656
-In Projects = "1,"
-Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
-
-[File 0030]
+[File 0027]
 Path = "/f/cvi/project/CSNC/pc_csnc/csnc_debug.h"
 File Type = "Include"
 Disk Date = 3589515231
 In Projects = ""
 Window Top = 281
 Window Left = 138
-Window Z-Order = 11
+Window Z-Order = 13
 Source Window State = "1,15,15,15,9,19,19,0,3,80,0,0,0,0,0,25,0,0,15,9,531,855,1,0,"
 
-[File 0031]
+[File 0028]
 Path = "/f/cvi/project/CSNC/csnc_debug/main.c"
 File Type = "CSource"
-Disk Date = 3589594493
+Disk Date = 3589596550
 In Projects = "1,"
 Window Top = 33
 Window Left = 10
-Window Z-Order = 1
-Source Window State = "1,57,57,57,12,27,27,0,0,98,0,0,0,0,0,25,54,0,57,40,431,855,1,0,"
+Window Z-Order = 6
+Source Window State = "1,57,57,57,12,27,27,0,0,80,0,0,0,0,0,20,47,0,57,40,431,855,1,0,"
+
+[File 0029]
+Path = "/f/cvi/project/CSNC/c_comm/crccheck/CrcCheck.h"
+File Type = "Include"
+Disk Date = 3532405953
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0030]
+Path = "/f/cvi/project/CSNC/ansytime/cvi_ansytimer.h"
+File Type = "Include"
+Disk Date = 3589084612
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
+
+[File 0031]
+Path = "/f/cvi/project/CSNC/csnc_debug/mian.h"
+File Type = "Include"
+Disk Date = 3589596599
+In Projects = "1,"
+Source Window State = "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"
 
 [Tab Order]
 Tab 0001 = "/f/cvi/project/CSNC/opencom/uir/comconfig.uir"

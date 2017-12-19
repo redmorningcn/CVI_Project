@@ -7,20 +7,7 @@
  *   Description:
 					 1、异步时钟。打开异步时钟，通过对向异步时钟管理缓冲区，添加异步超时变量，管理超时。
 
-
-本函数采用了串口回调函数，异步时钟，多线程，文件操作等函数。实现串口配置，串口发送接收。 对外接口函数如下
-
-
-/////////////////////////////////////////////////////////////////////////////
-					 双击选中 otr 按 Ctrl + H, 钩选 Match the case, Replace with
- *                   输入您要的名字，点击 Replace All
- *                   双击选中 Otr 按 Ctrl + H, 钩选 Match the case, Replace with
- *                   输入您要的名字，点击 Replace All
- *                   双击选中 OTR 按 Ctrl + H, 钩选 Match the case, Replace with
- *                   输入您要的名字，点击 Replace All
- *                   在 app_cfg.h 中指定本任务的 优先级  （ APP_TASK_COMM_PRIO     ）
- *                                            和 任务堆栈（ APP_TASK_COMM_STK_SIZE ）大小
- *
+	本函数采用了串口回调函数，异步时钟，多线程，文件操作等函数。实现串口配置，串口发送接收。 对外接口函数如下
  *   Notes:
  *     				E-mail: redmorningcn@qq.com
  *
@@ -37,7 +24,6 @@
 
 #include <cvi_ansytimer.h>		 			//定时器变量
 
-
 /********************************************************************************************/
 /* Constants																				*/
 /********************************************************************************************/
@@ -46,7 +32,7 @@
 /********************************************************************************************/
 /* Globals																					*/
 /********************************************************************************************/
-int		g_AnsyTime = 0;
+int					g_AnsyTime = 0;
 stcAnsyTimerMgr		sTimerMgr[CVI_ANSYTIME_VAR_MAX_NUM];  //异步管理区
 
 
@@ -68,7 +54,7 @@ int  CVICALLBACK AnsyTimerCallback (	int reserved, int theTimerId, int event,
 
 	for(i =0 ;i < CVI_ANSYTIME_VAR_MAX_NUM; i++)
 	{
-		if( 	((sTimerMgr[i].flg & 0x01) == 0x01) 			//有效
+		if(   ((sTimerMgr[i].flg & 0x01) == 0x01) 			//有效
 			&&	sTimerMgr[i].poverFlg  != NULL					//指示值不空
 			&&	sTimerMgr[i].Settime
 			)

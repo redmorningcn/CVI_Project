@@ -9,7 +9,7 @@ IVI Standard Root Dir = "/C/Program Files (x86)/IVI Foundation/IVI"
 VXIplug&play Framework Dir = "/C/Program Files (x86)/IVI Foundation/VISA/winnt"
 IVI Standard Root 64-bit Dir = "/C/Program Files/IVI Foundation/IVI"
 VXIplug&play Framework 64-bit Dir = "/C/Program Files/IVI Foundation/VISA/win64"
-Number of Files = 27
+Number of Files = 28
 Target Type = "Executable"
 Flags = 2064
 Copied From Locked InstrDrv Directory = False
@@ -346,6 +346,18 @@ File Type = "Include"
 Res Id = 26
 Path Is Rel = True
 Path Rel To = "Project"
+Path Rel Path = "../cvi_database/database/modeltable.h"
+Path = "/f/cvi/project/CSNC/cvi_database/database/modeltable.h"
+Exclude = False
+Project Flags = 0
+Folder = "head"
+Folder Id = 2
+
+[File 0027]
+File Type = "Include"
+Res Id = 27
+Path Is Rel = True
+Path Rel To = "Project"
 Path Rel Path = "setpara/setpara.h"
 Path = "/f/cvi/project/CSNC/csnc_setpara/setpara/setpara.h"
 Exclude = False
@@ -353,9 +365,9 @@ Project Flags = 0
 Folder = "head"
 Folder Id = 2
 
-[File 0027]
+[File 0028]
 File Type = "Function Panel"
-Res Id = 27
+Res Id = 28
 Path Is Rel = True
 Path Rel To = "CVI"
 Path Rel To Override = "CVI"
@@ -652,6 +664,12 @@ Image Base Address x64 = 4194304
 
 [Compiler Defines]
 Compiler Defines = "/DWIN32_LEAN_AND_MEAN"
+
+[Include Paths]
+Include Path 1 Is Rel = True
+Include Path 1 Rel To = "Project"
+Include Path 1 Rel Path = "../cvi_database/database"
+Include Path 1 = "/f/cvi/project/CSNC/cvi_database/database"
 
 [Create Executable]
 Executable File_Debug Is Rel = True

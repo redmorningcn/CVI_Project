@@ -1,12 +1,6 @@
 #include <ansi_c.h>
 #include "includes.h" 
 
-
-#define		COM_START_CODE		0x55
-#define		PC_ADDR				0xaa
-#define		HOST_ADDR			0x80
-#define		SLAVE_ADDR			0xA1
-
 #define		BROAD_ADDR			0xAF
 
 #define		GET_DIP_PRS			0xc0

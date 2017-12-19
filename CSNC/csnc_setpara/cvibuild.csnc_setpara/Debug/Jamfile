@@ -1,5 +1,6 @@
 CCFLAGS = -g ;
-HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+HDRS = 	"f:\\cvi\\project\\CSNC\\cvi_database\\database"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
@@ -29,6 +30,7 @@ HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activ
 	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
 	;
 include Jamfile_instr ;
+TIMESTAMPFILE on "f:\\cvi\\project\\CSNC\\csnc_setpara\\setpara\\setpara.c" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\UnsavedChanges\\setpara.c" ;
 LOCATE on "comconfig.h" = "f:\\cvi\\project\\CSNC\\opencom\\uir" ;
 LOCATE on "CrcCheck.c" = "f:\\cvi\\project\\CSNC\\c_comm\\crccheck" ;
 LOCATE on "CrcCheck.h" = "f:\\cvi\\project\\CSNC\\c_comm\\crccheck" ;
@@ -50,6 +52,7 @@ LOCATE on "cvi_setpara.h" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\setpara" ;
 LOCATE on "includes.h" = "f:\\cvi\\project\\CSNC\\c_comm" ;
 LOCATE on "main.c" = "f:\\cvi\\project\\CSNC\\csnc_setpara" ;
 LOCATE on "mian.h" = "f:\\cvi\\project\\CSNC\\csnc_setpara" ;
+LOCATE on "modeltable.h" = "f:\\cvi\\project\\CSNC\\cvi_database\\database" ;
 LOCATE on "setpara.c" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\setpara" ;
 LOCATE on "setpara.h" = "f:\\cvi\\project\\CSNC\\csnc_setpara\\setpara" ;
 Object "f:\\cvi\\project\\CSNC\\csnc_setpara\\cvibuild.csnc_setpara\\Debug\\CrcCheck.obj" : "f:\\cvi\\project\\CSNC\\c_comm\\crccheck\\CrcCheck.c" ;

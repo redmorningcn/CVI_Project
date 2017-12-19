@@ -13,15 +13,7 @@
 /********************************************************************************************/
 /* Include files																			*/
 /********************************************************************************************/
-#include "cvi_setpara.h"
-
-#include <utility.h>
-#include <rs232.h>
-#include <ansi_c.h>
-#include <cvirte.h>		
-#include <userint.h>
 #include "setpara.h"
-
 
 /********************************************************************************************/
 /* Constants																				*/
@@ -61,6 +53,8 @@ void     ReadTime(stcTime * sTime)
 //	printf("%d-%d-%d %d:%d:%d\r\n",sTime->Year ,sTime->Month,sTime->Date,sTime->Hour,sTime->Min,sTime->Sec);
 }
 
+
+stcCalcModel	gsCalcModel;	//油箱模型（运算用）
 extern	int   g_com1systictimes;
 /********************************************************************************************/
 /* 串口设置参数      																		*/
@@ -85,14 +79,11 @@ void Com_SetParaTask(void)
 		
 		switch (l_eqiupmentcode)				//根据指令操作，祥见统计模块通讯协议
 		{
-			unsigned int 	startnum;
-			unsigned int 	endnum;
-			short  		density; 
-			stcTime		sTime;  
-			short   	hig; 
-			char		modelnum;
+			short  			density; 
+			stcTime			sTime;  
+			short   		hig; 
+			char			modelnum;
 			unsigned short 	locotype,loconum;
-			unsigned char	printfflg,storetime,dishigflg,noavgflg;
 			unsigned short	crc;
 			unsigned int	calcpara;
 			unsigned int 	recnum;  
@@ -171,34 +162,39 @@ void Com_SetParaTask(void)
 					
 					clearcode = 0;						//不清零装置标示，一般直接清零
 
-//					if(modelsendnum < 1 + (sizeof(gsCalcModel) / 128))
-//					{
-//						p = (uint8 *)&gsCalcModel;
-//						memcpy(&buf[datalen],(unsigned char *)&modelsendnum,sizeof(modelsendnum));		//复制序号
-//						datalen += sizeof(modelsendnum);
+					if(modelsendnum < 1 + (sizeof(gsCalcModel) / 128))
+					{
+						p = (uint8 *)&gsCalcModel;
+						memcpy(&buf[datalen],(unsigned char *)&modelsendnum,sizeof(modelsendnum));		//复制序号
+						datalen += sizeof(modelsendnum);
 
-//						if(sizeof(gsCalcModel) - 128*modelsendnum > 128 )
-//						{
-//							memcpy(&buf[datalen],(unsigned char *)(p + 128*modelsendnum),128);
-//							datalen += 128; 
-//						}else
-//						{
-//							memcpy(&buf[datalen],(unsigned char *)(p + 128*modelsendnum),
-//								   				 sizeof(gsCalcModel) - 128*modelsendnum );
-//							
-//							datalen += sizeof(gsCalcModel) - 128*modelsendnum ; 
-//						}
-//						modelsendnum++;
-//						
-//						i = g_com1systictimes;
-//						while(g_com1systictimes - i  < 1000);
-//					} 
+						if(sizeof(gsCalcModel) - 128*modelsendnum > 128 )
+						{
+							memcpy(&buf[datalen],(unsigned char *)(p + 128*modelsendnum),128);
+							datalen += 128; 
+						}else
+						{
+							memcpy(&buf[datalen],(unsigned char *)(p + 128*modelsendnum),
+								   				 sizeof(gsCalcModel) - 128*modelsendnum );
+							
+							datalen += sizeof(gsCalcModel) - 128 * modelsendnum ; 
+						}
+						modelsendnum++;
+						
+						//i = g_com1systictimes;				  			//延时
+						//while(g_com1systictimes - i  < 1000);
+					} 
 
-//					if(modelsendnum >= 1 + (sizeof(gsCalcModel) / 128)) //数据发送完成
-//					{
-//						modelsendnum = 0;
-//						clearcode = 1;				//清零标示，设置结束
-//					}
+					if(modelsendnum >= 1 + (sizeof(gsCalcModel) / 128)) //数据发送完成
+					{
+						modelsendnum = 0;
+						clearcode = 1;				//清零标示，设置结束
+					}
+					
+					//i = GetAnsySysTime();
+					//while(GetAnsySysTime() - i < 5000 );//
+					i  = 100000000;					//延时处理
+					while(i--);
 					break; 							  
 							  
 			default:

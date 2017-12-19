@@ -16,17 +16,20 @@
 /********************************************************************************************/
 /* Include files																			*/
 /********************************************************************************************/
+#include "includes.h"
+
 #include "asynctmr.h"
 #include <utility.h>
 #include <ansi_c.h>
 #include <cvirte.h>		
 #include <userint.h>
 #include <formatio.h> 
+#include <rs232.h>
 
-#include "includes.h"
+#include "modedata.h"   
+#include "cvi_setpara.h"
 #include "csnr_package_deal.h"
 #include "cvi_config.h"
-
 
 
 /********************************************************************************************/
@@ -89,15 +92,21 @@ typedef struct _StrProductInfo {
 }stcProductInfo;
 
 
-//油量计算参数: 模型编号，高度，密度，斜率
-//12 bytes
+
 typedef struct _StrOilPara {
-    uint8			ModelNum;		//模型编号	0~64
-    uint8			Rec8;			//备用
-    int16			Hig;			//高度  -500~500
-    int16			Density;		//密度  800~900,     0.xxxx克/立方厘米（10000倍）
-    int16			Rec16;			//备用
-    uint32			Slope;			//修正系数 :计算值再乘(slope/10000)  
+    uint8			ModelNum;			//模型编号	0~64
+    uint8			Rec8;				//备用
+    int16			Hig;				//高度  -500~500
+    int16			Density;			//密度  800~900,     0.xxxx克/立方厘米（10000倍）
+    int16			Rec16;				//备用
+    uint32			Slope;				//修正系数 :计算值再乘(slope/10000) 
+    
+	int16			cvi_oilval;			//输入或输出油量值
+	int16			cvi_higval;			//输入或输出高度值
+	uint8			cvi_calcOilflg;		//cvi计算油量标识
+	uint8			cvi_calchigflg;		//cvi计算高度标识
+	
+    uint8           tmp[18];
 }stcOilPara;
 
 //时间----------------------------------------
